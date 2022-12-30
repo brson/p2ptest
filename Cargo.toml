@@ -5,6 +5,7 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.68"
+void = "1.0.2"
 
 [dependencies.tokio]
 version = "1.23.0"
@@ -12,4 +13,4 @@ features = ["full"]
 
 [dependencies.libp2p]
 version = "0.50.0"
-features = ["tokio", "tcp", "dns", "websocket", "noise", "mplex", "yamux", "ping"]
+features = ["tokio", "tcp", "dns", "websocket", "noise", "mplex", "yamux", "ping", "macros"]

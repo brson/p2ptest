@@ -1538,6 +1538,7 @@ dependencies = [
  "futures-timer",
  "instant",
  "libp2p-core",
+ "libp2p-swarm-derive",
  "log",
  "pin-project",
  "rand 0.8.5",
@@ -1545,6 +1546,17 @@ dependencies = [
  "thiserror",
  "tokio",
  "void",
+]
+
+[[package]]
+name = "libp2p-swarm-derive"
+version = "0.31.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9d527d5827582abd44a6d80c07ff8b50b4ee238a8979e05998474179e79dc400"
+dependencies = [
+ "heck",
+ "quote",
+ "syn",
 ]
 
 [[package]]
@@ -2011,6 +2023,7 @@ dependencies = [
  "anyhow",
  "libp2p",
  "tokio",
+ "void",
 ]
 
 [[package]]
