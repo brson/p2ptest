@@ -1,0 +1,15 @@
+[package]
+name = "p2ptest"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.68"
+
+[dependencies.tokio]
+version = "1.23.0"
+features = ["full"]
+
+[dependencies.libp2p]
+version = "0.50.0"
+features = ["tokio", "tcp", "dns", "websocket", "noise", "mplex", "yamux", "ping"]
